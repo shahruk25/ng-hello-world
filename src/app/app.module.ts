@@ -7,12 +7,16 @@ import { AppComponent } from './app.component';
 import { CoursesComponent } from './courses.component';
 import { CoursesService } from './courses.service';
 import { SummmaryPipe } from './summary.pipe';
+import { FavoriteComponent } from './favorite/favorite.component';
+import { CamelCasePipe } from './camel-case.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     CoursesComponent,
-    SummmaryPipe
+    SummmaryPipe,
+    FavoriteComponent,
+    CamelCasePipe
   ],
   imports: [
     BrowserModule,

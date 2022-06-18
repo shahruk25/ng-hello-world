@@ -1,0 +1,8 @@
+<h1>The favorite works!</h1>
+<div class="mb-3">
+    <i (click)="onFavorite()" [ngClass]="onFavorite() ? 'bi bi-star-fill' : 'bi bi-star'"></i>
+        <!-- <label for="camelCase" class="form-label">{{camelCaseStr | camelCase }}</label> -->
+    <input type="email" placeholder="The favorite works!" [(ngModel)]="camelCaseStr">
+    <br>
+    {{camelCaseStr | camelCase}}
+</div>
